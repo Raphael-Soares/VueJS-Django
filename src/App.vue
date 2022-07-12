@@ -22,7 +22,7 @@ export default {
             url: 'http://127.0.0.1:8000/livros/',
             auth: {
                 username: 'Raphael',
-                password: 'gamemode'
+                password: ''
             }
         }).then(response => this.livros = response.data);
   }
